@@ -1,6 +1,7 @@
-var download = require("../lib/download");
-var upload = require("../lib/upload");
-var importFile = require("../lib/importFile");
+require("coffee-script/register")
+var download = require("../src/download");
+var upload = require("../src/upload");
+var importFile = require("../src/importFile");
 
 module.exports = function (grunt) {
 
